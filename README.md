@@ -2,12 +2,13 @@
 
 > Vim global plugin for highlighting matches
 
-From Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
-[Tarball](http://is.gd/IBV2013)
-[Github repo](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup)
-[Plugin](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/plugin/hlnext.vim)
-
 This plugin is pushed as a personal GitHub repo to better manage the plugin indepedently of vim configs.
+
+### Original links
+* From Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
+* [Tarball](http://is.gd/IBV2013)
+* [Github repo](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup)
+* [hlnext.vim](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/plugin/hlnext.vim)
 
 ## Description
 
@@ -20,19 +21,19 @@ Highlighting the next search result is done via the HLNext()
 function.  In order to remove search highlighting it is
 recommended to use a mapping similar to the following:
 
-```vimscript
+```vim
 nmap <silent> <BS> :call HLNextOff() <BAR> :nohlsearch<CR>
 ```
 
 If using documap.vim:
 
-```vimscript
+```vim
 nmap <silent> <BS> [Cancel highlighting] :call HLNextOff() <BAR> :nohlsearch<CR>
 ```
 
 If using documap.vim and either visualguide.vim or visualsmartia.vim
 
-```vimscript
+```vim
 nmap <silent> <BS> [Cancel highlighting] :call HLNextOff() <BAR> :nohlsearch <BAR> :call VG_Show_CursorColumn('off')<CR>
 ```
 
@@ -40,8 +41,7 @@ nmap <silent> <BS> [Cancel highlighting] :call HLNextOff() <BAR> :nohlsearch <BA
 
 Set custom highlight colors with the following in your vimrc:
 
-```vimscript
-" Default highlighting for next match...
+```vim
 highlight default HLNext ctermfg=white ctermbg=red cterm=bold
 ```
 
@@ -54,8 +54,9 @@ I am most familiar with Damain Conway's hlnext and the highlighting style, and d
 
 ## Meta
 
-* Last change:	Thu Dec 19 16:08:21 EST 2013
-* Maintainer:	Damian Conway
+* Last change:      Mon Sep  7 14:09:06 CDT 2020
+* Maintainer:       [Happy-Dude](https://github.com/happy-dude)
+* Original author:  [Damian Conway](https://github.com/thoughtstream)
 
 ### License
 
