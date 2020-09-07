@@ -2,7 +2,7 @@
 
 > Vim global plugin for highlighting matches
 
-This plugin is pushed as a personal GitHub repo to manage the plugin indepedent of vim configs.
+Pushed as personal GitHub repo to manage the plugin indepedent of vim config.
 
 ### References
 * Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
@@ -45,7 +45,7 @@ I have used Damain Conway's hlnext the longest and am most familiar with it's hi
 
 ## Meta
 
-* Last change:      Mon Sep  7 14:09:06 CDT 2020
+* Last change:      Mon Sep  7 14:26:53 CDT 2020
 * Maintainer:       [Happy-Dude](https://github.com/happy-dude)
 * Original author:  [Damian Conway](https://github.com/thoughtstream)
 
