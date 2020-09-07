@@ -2,7 +2,7 @@
 
 > Vim global plugin for highlighting matches
 
-Pushed as personal GitHub repo to manage the plugin indepedent of vim config.
+Pushed as a personal repo to manage the plugin indepedent of vim config and dotfiles.
 
 ### References
 * Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
