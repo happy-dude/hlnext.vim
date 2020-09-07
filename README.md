@@ -37,14 +37,6 @@ If using documap.vim and either visualguide.vim or visualsmartia.vim
 nmap <silent> <BS> [Cancel highlighting] :call HLNextOff() <BAR> :nohlsearch <BAR> :call VG_Show_CursorColumn('off')<CR>
 ```
 
-## Settings
-
-Set custom highlight colors with the following in your vimrc:
-
-```vim
-highlight default HLNext ctermfg=white ctermbg=red cterm=bold
-```
-
 ## Alternatives
 
 [vim-searchlight](https://github.com/PeterRincker/vim-searchlight/), [vim-searchhi](https://github.com/qxxxb/vim-searchhi), and [vim-searchant](https://github.com/timakro/vim-searchant) are feature rich and well-maintained.
