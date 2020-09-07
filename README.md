@@ -2,13 +2,13 @@
 
 > Vim global plugin for highlighting matches
 
-This plugin is pushed as a personal GitHub repo to better manage the plugin indepedently of vim configs.
+This plugin is pushed as a personal GitHub repo to manage the plugin indepedent of vim configs.
 
-### Original links
-* From Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
+### References
+* Damien Conway's ['More Instantly Better Vim' OSCON 2013 talk](https://www.youtube.com/watch?v=aHm36-na4-4)
+* [hlnext.vim](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/plugin/hlnext.vim)
 * [Tarball](http://is.gd/IBV2013)
 * [Github repo](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup)
-* [hlnext.vim](https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/plugin/hlnext.vim)
 
 ## Description
 
@@ -47,10 +47,9 @@ highlight default HLNext ctermfg=white ctermbg=red cterm=bold
 
 ## Alternatives
 
-[vim-searchlight](https://github.com/PeterRincker/vim-searchlight/), [vim-searchhi](https://github.com/qxxxb/vim-searchhi), and [vim-searchant](https://github.com/timakro/vim-searchant) are all well-maintained and feature-full.
+[vim-searchlight](https://github.com/PeterRincker/vim-searchlight/), [vim-searchhi](https://github.com/qxxxb/vim-searchhi), and [vim-searchant](https://github.com/timakro/vim-searchant) are feature rich and well-maintained.
 
-I am most familiar with Damain Conway's hlnext and the highlighting style, and decided to stick with it.
-
+I have used Damain Conway's hlnext the longest and am most familiar with it's highlighting style, and thus have stuck with it.
 
 ## Meta
 
